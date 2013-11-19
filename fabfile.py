@@ -17,6 +17,17 @@ def vagrant():
     env.key_filename = result.split()[1]
     
 
+def vmware():
+
+    # set this to your vmware settings
+    # if you've used a desktop distro, install an ssh server 
+    #
+    #   sudo apt-get install openssh-server
+    # 
+    
+    env.user = 'stonerri'
+    env.hosts = ['172.16.141.133']
+
 
 def sysinfo():
     run('uname -a')
@@ -35,7 +46,7 @@ def base():
         packages = [
             'libsdl1.2-dev',
             'python-tk',
-            'bison',
+            'bison', 
             'flex',
             'gcc-4.4',
             'cmake-curses-gui',

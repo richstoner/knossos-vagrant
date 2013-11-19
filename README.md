@@ -6,6 +6,8 @@ A quick attempt at getting knossos on my mac (10.8) without having to break anyt
 
 Final goal: installed knossos in a VM, accessing data via shared folder (/vagrant/data), connected to through RDP (xrdp running on vm).
 
+This requires VirtualBox 4.3+ with extension pack and Vagrant 1.3.5+.
+
 #### Install instructions
 
 Based on [https://code.google.com/p/knossos-skeletonizer/wiki/CompilingKnossosOnLinux](https://code.google.com/p/knossos-skeletonizer/wiki/CompilingKnossosOnLinux)
