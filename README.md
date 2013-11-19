@@ -102,7 +102,7 @@ from: [http://askubuntu.com/questions/173085/how-do-i-build-libcurl-from-source]
 	
 
 
-**install a display**
+**install a display (only needed for remote deploys)**
 
 from [http://networkstatic.net/xrdp-an-easy-remote-desktop-setup-for-your-ubuntu-servers/](http://networkstatic.net/xrdp-an-easy-remote-desktop-setup-for-your-ubuntu-servers/)
 
@@ -111,6 +111,18 @@ from [http://networkstatic.net/xrdp-an-easy-remote-desktop-setup-for-your-ubuntu
 	sudo apt-get install xrdp
 
 	/etc/init.d/xrdp start
+
+
+### Usage
+
+**Running knossos**
+
+from the knossos-skeletonizer-readonly folder
+
+	./knossos --data-path=/path/to/data/folder
+	
+You can download example data from the bottom of this page: [http://www.knossostool.org/get.html](http://www.knossostool.org/get.html)
+
 
 
 
